@@ -1,0 +1,9 @@
+matplotlib==3.3.3
+numpy==1.19.0
+pandas==1.4.3
+scikit-image
+scipy
+SimpleITK==2.4.0
+tensorboard==2.14.0
+torch==1.13.1
+tqdm

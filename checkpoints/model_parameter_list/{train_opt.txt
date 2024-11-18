@@ -1,0 +1,19 @@
+----------------- Options ---------------
+               batch_size: 2                             
+          checkpoints_dir: ./checkpoints                 
+              data_folder: 5                             
+                 datapath: ./data/YNpre                  
+                    epoch: 1                             	[default: 3]
+                  gpu_ids: 3                             
+                  isTrain: True                          	[default: None]
+                       lr: 0.01                          
+           model_save_fre: 50                            
+                     name: Tumor_seg                     
+              num_threads: 4                             
+               patch_size: (32, 128, 128)                
+             patch_stride: (8, 64, 64)                   
+                     step: 50                            
+                task_name: task1_breast_tumor            
+               test_batch: 2                             
+                 test_fre: 600                           
+----------------- End -------------------
