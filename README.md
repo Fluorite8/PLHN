@@ -16,7 +16,7 @@ conda activate plhn
 # Install requirements
 pip install -r requirements.txt
 ```
-Download dataset from https://drive.google.com/file/d/1ciSV337l9uyoou2GfbSRHPxHH9r6uxC9/view?usp=sharing
+Download the dataset from https://drive.google.com/file/d/1ciSV337l9uyoou2GfbSRHPxHH9r6uxC9/view?usp=sharing
 
 Extract & Copy the `YNpre` folder to `.../PLHN/data/`.
 
@@ -31,7 +31,7 @@ tail -n +21 all_data.txt > train5.txt
 cd ../../..
 ```
 
-Run script:
+Run training script:
 
 ```bash
 # Add working dir to PYTHONPATH
